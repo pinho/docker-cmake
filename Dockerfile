@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER RonalddPinho
+MAINTAINER RonalddPinho <ronaldppinho@gmail.com>
 
 RUN apt-get update -y && apt-get install -y gcc g++ build-essential wget openssl libssl-dev
 
