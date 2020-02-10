@@ -1,21 +1,30 @@
 ![Docker Pulls](https://img.shields.io/docker/pulls/ronalddpinho/cmakeupd)
 ![Docker Stars](https://img.shields.io/docker/stars/ronalddpinho/cmakeupd)
 
-# cmake update
+# docker-cmake
 
-**Image for build C/C++ projects with the latest version of CMake.**
+**Image for build C/C++ projects with the latest CMake version.**
 
-This image contains the following software:
+This image is based on `ubuntu:latest`, retrieving CMake from oficial releases
+and containing the following softwares:
 
 * GCC compilers: `gcc` and `g++`
 * Wget
 * OpenSSL (Required by CMake)
-* CMake v3.16.4
+
+Current version of cmake: `cmake-3.16.4`
 
 To run a container with this image use:
 
 ```sh
-docker run -it --rm --name cmake_updated ronalddpinho/cmakeupd:3.16.4 /bin/bash
+docker run -it --rm --name cmake_updated ronalddpinho/cmake /bin/bash
+```
+
+or clone this repository and build from Dockerfile
+
+```sh
+git clone github.com/pinho/docker-cmake.it && cd docker-cmake
+sudo docker build -t ronalddpinho/cmake .
 ```
 
 ## License
