@@ -23,10 +23,10 @@ docker run -it --rm --name cmake_updated ronalddpinho/cmake /bin/bash
 or clone this repository and build from Dockerfile
 
 ```sh
-git clone github.com/pinho/docker-cmake.it && cd docker-cmake
-sudo docker build -t ronalddpinho/cmake .
+git clone https://github.com/pinho/docker-cmake.git
+sudo docker build -t ronalddpinho/cmake docker-cmake/
 ```
 
 ## License
 
-Licensed under [MIT](https://opensource.org/licenses/MIT) license.
+[MIT](https://opensource.org/licenses/MIT)
