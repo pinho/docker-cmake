@@ -1,5 +1,5 @@
-![Docker Pulls](https://img.shields.io/docker/pulls/ronalddpinho/cmakeupd)
-![Docker Stars](https://img.shields.io/docker/stars/ronalddpinho/cmakeupd)
+![Docker Pulls](https://img.shields.io/docker/pulls/ronalddpinho/cmake)
+![Docker Stars](https://img.shields.io/docker/stars/ronalddpinho/cmake)
 
 # docker-cmake
 
